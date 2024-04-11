@@ -145,15 +145,30 @@ button {
         height: 60vh;
     }
     .text {
-        font-size: 16px;
+        font-size: 12px;
     }
     .textQ {
         font-weight: 600;
-        font-size: 15px;
+        font-size: 12px;
       }
       button {
         width: 10em;
         height: 4em;
         border-radius: 3em;
       }
+      i {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .newQ{
+        position: absolute;
+        top: 75%;
+        left: 30%;
+    }
+    .author {
+        margin: 8px;
+        font-size: 9px;
+    }
 }
