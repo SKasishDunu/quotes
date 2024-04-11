@@ -137,10 +137,43 @@ button {
     -webkit-background-clip: text;
 }
 
-@media screen  and (max-width: 500px){
+@media screen  and (max-width: 900px){
     .container1{
         top: 50%;
-        left: 47%;
+        left: 50%;
+        width: 75vw;
+        height: 60vh;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .textQ {
+        font-size: 15px;
+      }
+      button {
+        width: 10.5em;
+        height: 3.5em;
+        border-radius: 2em;
+      }
+      i {
+        position: absolute;
+        top: 8%;
+        left: 8%;
+    }
+
+    .newQ{
+        position: absolute;
+        top: 80%;
+        left: 35%;
+    }
+    .author {
+        margin: 8px;
+        font-size: 12px;
+    }
+}
+
+@media screen  and (max-width: 450px){
+    .container1{
         width: 75vw;
         height: 60vh;
     }
@@ -148,27 +181,20 @@ button {
         font-size: 12px;
     }
     .textQ {
-        font-weight: 600;
         font-size: 12px;
       }
       button {
         width: 10em;
-        height: 4em;
-        border-radius: 3em;
+        height: 3em;
+        border-radius: 2em;
       }
-      i {
-        position: absolute;
-        top: 5%;
-        left: 5%;
-    }
 
     .newQ{
         position: absolute;
-        top: 75%;
-        left: 30%;
+        top: 85%;
+        left: 20%;
     }
     .author {
-        margin: 8px;
         font-size: 9px;
     }
 }
