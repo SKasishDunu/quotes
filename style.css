@@ -61,7 +61,7 @@ body {
 }
 
 .text {
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 10px;
     text-align: center;
     transition: 0.5s;
@@ -79,13 +79,13 @@ body {
 .newQ{
     position: absolute;
     top: 75%;
-    right: 34%;
+    left: 36%;
 }
 
 button {
         border: none;
-        width: 15em;
-        height: 5em;
+        width: 13em;
+        height: 4.5em;
         border-radius: 3em;
         display: flex;
         justify-content: center;
@@ -104,7 +104,7 @@ button {
 .textQ {
         font-weight: 600;
         color: #AAAAAA;
-        font-size: medium;
+        font-size: 20px;
       }
       
       button:hover {
@@ -127,7 +127,7 @@ button {
 
 .author {
     margin: 10px;
-    font-size: 20px;
+    font-size: 15px;
     transition: 0.5s;
     text-align: right;
     transition-timing-function: ease-in;
@@ -137,3 +137,23 @@ button {
     -webkit-background-clip: text;
 }
 
+@media screen  and (max-width: 500px){
+    .container1{
+        top: 50%;
+        left: 47%;
+        width: 75vw;
+        height: 60vh;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .textQ {
+        font-weight: 600;
+        font-size: 15px;
+      }
+      button {
+        width: 10em;
+        height: 4em;
+        border-radius: 3em;
+      }
+}
